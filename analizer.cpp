@@ -16,7 +16,7 @@ class matrice{
 				
 		}
 		addConnection(int idA, int idB){
-				Mat[idA][idB] = Mat[idB][idA];
+				Mat[idA][idB] = Mat[idB][idA] = 1;
 		}
 		int size() const{
 			return Mat.size();
